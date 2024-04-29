@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -16,17 +16,18 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
-    {"name":"Sprite7","order":6,"path":"sprites/Sprite7/Sprite7.yy",},
-    {"name":"Sprite9","order":8,"path":"sprites/Sprite9/Sprite9.yy",},
+  "ResourceOrderSettings":[
+    {"name":"OGUN","order":3,"path":"objects/OGUN/OGUN.yy",},
+    {"name":"Owall","order":2,"path":"objects/Owall/Owall.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"Sprite10","order":9,"path":"sprites/Sprite10/Sprite10.yy",},
+    {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
     {"name":"Sprite6","order":5,"path":"sprites/Sprite6/Sprite6.yy",},
-    {"name":"Sprite10","order":9,"path":"sprites/Sprite10/Sprite10.yy",},
-    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
-    {"name":"Owall","order":2,"path":"objects/Owall/Owall.yy",},
+    {"name":"Sprite7","order":6,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"Sprite8","order":7,"path":"sprites/Sprite8/Sprite8.yy",},
-    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
-    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
-    {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite9","order":8,"path":"sprites/Sprite9/Sprite9.yy",},
   ],
 }

@@ -7,7 +7,35 @@ var move = key_right - key_left;
 hsp = move*wsp;
 
 vsp = vsp + grv;
+if (hsp < 0){
+	image_xscale = -1;
+	OGUN.image_xscale = -1;
+	OGUN.x = x - 32;
+	OGUN.y = y ;
+	OGUN.GUNDIR = "left";
 
+}
+if (hsp > 0){
+	image_xscale = 1;
+	OGUN.image_xscale = 1;
+	OGUN.x = x + 32;
+	OGUN.y = y ;
+	OGUN.GUNDIR = "right";
+	
+}
+if (hsp == 0){
+	if (OGUN.GUNDIR == "left"){
+		OGUN.x = x - 32;
+	OGUN.y = y ;
+	OGUN.image_xscale = -1;
+	}
+	if (OGUN.GUNDIR == "right"){
+		OGUN.x = x + 32;
+	OGUN.y = y ;
+	OGUN.image_xscale = 1;
+	}
+	
+}
 if (place_meeting(x, y+1,Owall) && key_jump){
 	vsp = -10;
 }
@@ -24,3 +52,5 @@ if (place_meeting(x,y +vsp,Owall))
 	vsp=0;
 }
 y = y + vsp;
+//OGUN.x = x + 32;
+//OGUN.y = y ;
